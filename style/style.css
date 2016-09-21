@@ -40,8 +40,12 @@ body, ul, li {
     background: url(../img/logo.png) no-repeat;
     width: 140px;
     height: 56px;
-    margin-right: 20.45%;
+
     margin-top: 27px;
+}
+
+.logo_link {
+    margin-right: 20.45%;
 }
 
 .flex_box {
@@ -53,7 +57,7 @@ nav {
 }
 
 .menu {
-    list-style-type: none; 
+    list-style-type: none;
     width: 100%;
     margin-top: 55px;
     height: 25px;
@@ -73,11 +77,12 @@ nav h2 {
     font-weight: 500;
     font-size: 14px;
     line-height: 30px;
-    display: block
+    display: block;
+    transition: color .8s;
 }
 
 .menu_item {
-    
+
     margin-right: 7.14%;
 }
 
@@ -98,6 +103,7 @@ nav h2 {
     padding-left: 20px;
     text-decoration: none;
     color: #000000;
+    transition: background .8s, color .8s;
 }
 
 .slider_block {
@@ -106,6 +112,7 @@ nav h2 {
     background: #eeeeee;
     margin-bottom: 80px;
     width: 100%;
+
 }
 
 .offers {
@@ -274,7 +281,7 @@ nav h2 {
 
 .right_column ul {
     list-style-type: none;
-    
+
 }
 
 .left_column ul li {
@@ -392,7 +399,7 @@ nav h2 {
 .flex_item:nth-child(1) img {
     width: 100%;
     height: auto;
-    padding: 0 8.75%; 
+    padding: 0 8.75%;
 }
 
 .flex_item:nth-child(2) img {
@@ -427,7 +434,6 @@ nav h2 {
 .map_container .coordinates {
     position: absolute;
     top: 75px;
-    left: 18.18%;
     background: #ffffff;
     width: 20%;
     padding-left: 1.75%;
@@ -449,7 +455,7 @@ nav h2 {
 }
 
 .coordinates p:nth-child(3) {
-    margin-bottom: 27px; 
+    margin-bottom: 27px;
 }
 
 .coordinates span {
@@ -520,7 +526,7 @@ nav h2 {
     line-height: 36px;
     font-weight: 500;
     margin-bottom: 10px;
-    
+
 }
 
 .friends p {
@@ -528,7 +534,7 @@ nav h2 {
 }
 
 .menu .current {
-  border-bottom: 2px solid #fb565a;  
+  border-bottom: 2px solid #fb565a;
 }
 
 .menu .menu_link:hover {
@@ -597,6 +603,7 @@ nav h2 {
     width: 100%;
     height: 352px;
     position: relative;
+    outline: none;
 }
 
 .slide h2 {
@@ -649,62 +656,62 @@ nav h2 {
     right: 0;
     bottom: 0;
 }
-
+/*                                                            media start*/
 @media screen and (max-width: 780px) {
     .slide h2 {
         margin-top: 40px;
         font-size: 28px;
         margin-bottom: 14px;
     }
-    
+
     .slider_block {
         height: 290px;
     }
-    
+
     .slide p {
         margin-bottom: 20px;
     }
-    
+
     .slide:nth-of-type(1) img {
         width: 248px;
         top: 60px;
     }
-    
+
     .slide:nth-of-type(2) img {
         width: 190px;
         top: 45px;
     }
-    
+
     .slide:nth-of-type(3) img {
         width: 240px;
         top: 60px;
     }
-    
+
     .slide:nth-of-type(3) h2 {
         margin-top: 50px;
     }
-    
+
     .main_header .logo {
-        margin: 0 auto;  
+        margin: 0 auto;
     }
 
     .flex_box {
         display: block;
     }
-    
+
     .menu {
         margin: 0;
         justify-content: center;
     }
-    
+
     .main_header nav {
         margin: 0 auto;
         margin-top: 10px;
         width: 100%;
     }
-    
+
     .menu .menu_item:nth-child(3) {
-        
+
     }
 
     .offers .offer_item h3 {
@@ -722,7 +729,7 @@ nav h2 {
     .right_column ul li:nth-child(1) {
         margin-bottom: 5px;
     }
-    
+
     .right_column ul li:nth-child(2) {
         margin-bottom: 5px;
     }
@@ -730,7 +737,7 @@ nav h2 {
     .left_column ul li:nth-child(1) {
         margin-bottom: 5px;
     }
-    
+
     .left_column ul li:nth-child(2) {
         margin-bottom: 5px;
     }
@@ -740,7 +747,7 @@ nav h2 {
         padding: 0 20%;
         margin-bottom: 63px;
     }
-    
+
     .right_column h4:after {
         width: 20%;
     }
@@ -766,65 +773,65 @@ nav h2 {
         font-size: 14px;
         margin-bottom: 10px;
     }
-    
+
     .left_column .column_description {
         margin-bottom: 20px;
     }
-    
+
     .map_container .coordinates {
         top: 100px;
         width: 31%;
     }
-    
+
     .coordinates h3 {
         font-size: 12px;
         line-height: 14px;
     }
-    
+
     .coordinates p {
         font-size: 10px;
         margin-top: 0.4vw;
     }
-    
+
     .coordinates p:nth-child(3) {
         margin-bottom: 10px;
     }
-    
+
     .main_footer .media_icons {
         width: 45px;
         height: 45px;
         margin-left: 8%;
     }
-    
+
     .friends h2 {
         font-size: 22px;
         line-height: 22px;
         margin: 0;
     }
-    
+
     .friends p {
         font-size: 12px;
     }
-    
+
     .media {
         padding-left: 6%;
         text-align: center;
     }
-    
+
     .left_column ul li,
     .right_column ul li {
         font-size: 13px;
     }
-    
+
     .friends {
         width: 50%;
     }
-    
+
     .right_column .list_column_title {
         font-size: 14px;
         margin-bottom: 10px;
     }
-    
+
     .left_column {
         margin-right: 0;
     }
@@ -833,37 +840,39 @@ nav h2 {
         width: 30%;
         margin-left: 5%;
     }
-    
+
     #map {
         height: 350px;
     }
 }
 
+/*                                                        end of media-780px */
+
 @media screen and (max-width: 560px) {
-    
+
     .slider_block {
         height: 270px;
     }
-    
+
     .slide a {
         margin: 0 auto;
     }
-    
+
     .slide h2 {
         font-size: 20px;
         margin-bottom: 0;
         line-height: 23px;
     }
-    
+
     .slide p {
         margin-bottom: 10px;
         line-height: 17px;
     }
-    
+
     .slide:nth-of-type(2) p {
         margin-bottom: 5px;
     }
-    
+
     .slide:nth-of-type(1) img {
         top: 4px;
         margin: 0 auto;
@@ -871,7 +880,7 @@ nav h2 {
         left: 0;
         width: 170px;
     }
-    
+
     .slide:nth-of-type(2) img {
         width: 100px;
         top: 10px;
@@ -879,7 +888,7 @@ nav h2 {
         left: 0;
         margin: 0 auto;
     }
-    
+
     .slide:nth-of-type(3) img {
         width: 140px;
         top: 0px;
@@ -887,26 +896,26 @@ nav h2 {
         left: 0;
         margin: 0 auto;
     }
-    
+
     .slide:nth-of-type(3) h2 {
         margin-top: 136px;
     }
-    
+
     .slide_wrapp {
         text-align: center;
         width: 100%;
         margin-top: 120px;
     }
-    
+
     .menu .current {
         border: none;
     }
-    
+
     .main_header nav .menu .menu_link:active {
     color: #E74C3C;
     opacity: 1;
     }
-    
+
     .menu {
         display: block;
         height: 0;
@@ -914,15 +923,15 @@ nav h2 {
         margin: 0;
         overflow: hidden;
     }
-    
+
     .menu .menu_item {
         background: #8a9898;
     }
-    
+
     .main_header nav {
         margin: 0;
     }
-    
+
     .slider_block {
         margin-bottom: 55px;
     }
@@ -931,7 +940,7 @@ nav h2 {
         font-size: 16px;
         margin-bottom: 7px;
     }
-    
+
     .offer_item a {
         position: static;
     }
@@ -940,7 +949,7 @@ nav h2 {
         font-size: 13px;
         margin-bottom: 10px;
     }
-    
+
     .offer .offer_item {
         float: none;
         width: 70%;
@@ -955,13 +964,13 @@ nav h2 {
     .offer_item img {
         margin-bottom: 10px;
     }
-    
+
     .left_column .column_title {
-        font-size: 22px; 
+        font-size: 22px;
         margin-top: 5px;
         line-height: 26px;
     }
-    
+
     .description .left_column ul li {
         margin-bottom: 10px;
         padding-left: 25px;
@@ -978,11 +987,11 @@ nav h2 {
     .left_column .column_description {
         font-size: 14px;
     }
-    
+
     .right_column img {
         margin-top: 10px;
     }
-    
+
     .right_column h4 {
         margin-bottom: 27px;
     }
@@ -1009,7 +1018,7 @@ nav h2 {
         margin-bottom: 10px;
     }
 
-    .right_column img { 
+    .right_column img {
        margin: 0 auto 10px;
     }
 
@@ -1045,7 +1054,7 @@ nav h2 {
         width: 100%;
         display: block;
         padding: 0;
-        margin-bottom: 60px; 
+        margin-bottom: 60px;
     }
 
     .sponsors .flex_item:nth-child(3) img {
@@ -1062,13 +1071,15 @@ nav h2 {
     }
 
     .map_container .coordinates {
-        top: 16px;
+        top: 60px;
+        left: 20px;
+        width: 50%;
     }
-    
+
     .coordinates p {
         line-height: 15px;
     }
-    
+
     .coordinates h3 {
         margin-top: 15px;
     }
@@ -1090,7 +1101,7 @@ nav h2 {
         width: 70%;
         margin-bottom: 40px;
     }
-    
+
     .main_footer .media a {
         margin: 0 auto;
         width: 62px;
@@ -1111,7 +1122,7 @@ nav h2 {
     .friends p {
         font-size: 16px;
     }
-    
+
     .main_header .menu li {
         float: none;
         width: 100%;
@@ -1124,23 +1135,14 @@ nav h2 {
         padding: 10px;
         color: #fff;
         border-top: 1px solid #4f4f4f;
+        background: none;
     }
-    
+
     .main_header .user_block {
         background: none;
         position: relative;
     }
-/*
-    .main_header .user_block:before {
-        content: "";
-        position: absolute;
-        width: 15px;
-        height: 15px;
-        background: url(../img/bucket.png);
-        top: 5px;
-        left: 148px;
-    }
-    */
+
     .main_header .wrapper {
         padding: 0;
         margin: 0;
@@ -1159,12 +1161,12 @@ nav h2 {
     .main_header ul.open {
         height: 253px;
     }
-    
+
     .main_header ul li:hover {
         background-color: #6e6f75;
         transition: background-color 1s;
     }
-    
+
     .main_header nav ul.menu li a:hover {
         color: #1d1111;
         transition: color 1s;
