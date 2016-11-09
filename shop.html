@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nerds Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style/normalize.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+<header class="main_header">
+    <div class="wrapper">
+        <div class="flex_box">
+            <a href="index.html" class="logo_link"><h1 class="logo">Nerds</h1></a>
+            <div id="burger_nav"></div>
+            <nav class="">
+                <h2>Main navigation</h2>
+                <ul class="menu">
+                    <li class="menu_item"><a href="index.html" class="menu_link">Studio</a></li>
+                    <li class="menu_item"><a href="#" class="menu_link">Clients</a></li>
+                    <li class="menu_item current"><a href="#" class="menu_link">Shop</a></li>
+                    <li class="menu_item"><a href="#" class="menu_link">Contacts</a></li>
+                    <li class="menu_item"><a href="#" class="user_block menu_link">Basket</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<div class="background_block">
+    <h2 class="main_title">Welcome to the store<br> ready-made templates</h2>
+</div>
+<main>
+    <div class="wrapper main_shop">
+        <form class="filter" name="filtering form">
+            <p>Value:</p>
+            <div class="value_filter">
+                <div class="range_filter">
+                    <div class="scale">
+                        <div class="scale_filled" style="width: 70%;"></div>
+                        <div class="min_toggle toggle"></div>
+                        <div class="max_toggle toggle"></div>
+                    </div>
+
+                </div>
+                <label for="from" class="from">
+                    <input type="text" id="from" name="min_price" value="0"/>
+                </label>
+                <label for="to" class="to">
+                    <input type="text" id="to" name="max_price" value="1500"/>
+                </label>
+            </div>
+            <div class="grid_radio">
+                <p>Grid:</p>
+                <input type="radio" id="adaptive" class='radio' name="group1"/>
+                <label for="adaptive" class="radio_label">Adaptive</label>
+                <input type="radio" id="fixed" class="radio" name="group1"/>
+                <label for="fixed" class="radio_label">Fixed</label>
+                <input type="radio" id="rubber" class="radio" name="group1"/>
+                <label for="rubber" class="radio_label">Rubber</label>
+            </div>
+            <div class="features">
+                <p>Features</p>
+                <input type="checkbox" id="slider" class="check" name="group2"/>
+                <label for="slider" class="check_label">Slider</label>
+                <input type="checkbox" id="block_of" class="check" name="group2"/>
+                <label for="block_of" class="check_label">Block of features</label>
+                <input type="checkbox" id="news" class="check" name="group2"/>
+                <label for="news" class="check_label">News</label>
+                <input type="checkbox" id="gallery" class="check" name="group2"/>
+                <label for="gallery" class="check_label">Gallery</label>
+                <input type="checkbox" id="bucket" class="check" name="group2"/>
+                <label for="bucket" class="check_label">Bucket</label>
+            </div>
+        </form>
+        <div class="items">
+            <ul class="items_list">
+                <li class="items_list_one"><p>Sort by:</p></li>
+                <li class="items_list_one filter_item">Price</li>
+                <li class="items_list_one filter_item">Type</li>
+                <li class="items_list_one last_one filter_item">Functionality</li>
+                <li class="items_list_one filter_button"><div class="button_down active_down"></div></li>
+                <li class="items_list_one filter_button"><div class="button_up"></div></li>
+                <li class="items_list_one filter_active"><div class="button_filter">Filter</div></li>
+            </ul>
+            <article class="main_content_item">
+                <div class="content">
+                    <img src="img/bg.jpeg" alt=""/>
+                    <div class="over_window">
+                        <h3>Sunset</h3>
+                        <p>Online-shop with own cabinet</p>
+                        <button class="button">100$</button>
+                    </div>
+                </div>
+            </article>
+            <article class="main_content_item">
+                <div class="content">
+                    <img src="img/bg.jpeg" alt=""/>
+                    <div class="over_window">
+                        <h3>Sunset</h3>
+                        <p>Internet-shop with own</p>
+                        <button class="button">100$</button>
+                    </div>
+                </div>
+            </article>
+            <article class="main_content_item">
+                <div class="content">
+                    <img src="img/bg.jpeg" alt=""/>
+                    <div class="over_window">
+                        <h3>Sunset</h3>
+                        <p>Internet-shop with own</p>
+                        <button class="button">100$</button>
+                    </div>
+                </div>
+            </article>
+            <article class="main_content_item">
+                <div class="content">
+                    <img src="img/bg.jpeg" alt=""/>
+                    <div class="over_window">
+                        <h3>Sunset</h3>
+                        <p>Internet-shop with own</p>
+                        <button class="button">100$</button>
+                    </div>
+                </div>
+            </article>
+            <article class="main_content_item">
+                <div class="content">
+                    <img src="img/bg.jpeg" alt=""/>
+                    <div class="over_window">
+                        <h3>Sunset</h3>
+                        <p>Internet-shop with own</p>
+                        <button class="button">100$</button>
+                    </div>
+                </div>
+            </article>
+            <article class="main_content_item">
+                <div class="content">
+                    <img src="img/bg.jpeg" alt=""/>
+                    <div class="over_window">
+                        <h3>Sunset</h3>
+                        <p>Internet-shop with own</p>
+                        <button class="button">100$</button>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="pagers">
+            <button class="pager active">1</button>
+            <button class="pager">2</button>
+            <button class="pager">3</button>
+            <button class="pager next_page">Next</button>
+        </div>
+    </div>
+</main>
+<div class="map_container">
+    <div id="map"></div>
+    <div class="wrapper">
+        <div class="coordinates">
+            <h3>NЁRDS <span>DESIGN STUDIO</span></h3>
+            <p>Kiev,
+                Khreshchatyk, 100</p>
+            <p>phone. +7 (861) 275-75-75</p>
+            <div class="button">Write to us</div>
+        </div>
+    </div>
+</div>
+<footer class="main_footer wrapper">
+    <div class="media">
+        <a href="#" class="media_icons vk"></a>
+        <a href="#" class="media_icons fb"></a>
+        <a href="#" class="media_icons insta"></a>
+    </div>
+    <div class="friends">
+        <h2>Let's be friends, it pays!</h2>
+        <p>10% discount for friends from social networks.</p>
+    </div>
+</footer>
+</body>
+<script type="text/javascript">
+    var map;
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: 50.451432, lng: 30.520913},
+            zoom: 18
+        });
+        var marker = new google.maps.Marker({
+            position: {lat: 50.451231, lng: 30.522168},
+            map: map,
+            title: 'Nerds',
+            icon: 'img/pointer.png'
+        });
+    }
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhe0EF2yv0E_n1P7yYkiz7tYYOoDhPCOk&callback=initMap"
+        async defer></script>
+<script src="https://yastatic.net/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/filter.js"></script>
+</html>
