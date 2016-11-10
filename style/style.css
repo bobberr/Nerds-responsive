@@ -1252,7 +1252,7 @@ form p {
         top: 467px;
         border: 1px solid #f1f1f1;
         border-radius: 8px;
-        background-color: #ABB7B7;
+        background-color: #f9f9f9;
     }
     .items {
         width: 500px;
@@ -1277,7 +1277,6 @@ form p {
     .filter_button {
         margin-right: 7%;
     }
-    .main_shop
 }
 
 /*                                    end of media-780px */
